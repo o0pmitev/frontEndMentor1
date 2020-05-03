@@ -1,0 +1,126 @@
+:root {
+
+  /* primary */
+  --primary-red-color: hsl(0, 78%, 62%);
+  --primary-cyan-color: hsl(180, 62%, 55%);
+  --primary-orange-color: hsl(34, 97%, 64%);
+  --primary-blue-color: hsl(212, 86%, 64%);
+
+  /* neutral */
+
+  --neutral-very-dark-blue: hsl(234, 12%, 34%);
+  --neutral-grayish-blue: hsl(229, 6%, 66%);
+  --neutral-very-light-grey: hsl(0, 0%, 98%);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Poppins', serif;
+  text-align: center;
+  color: var(--neutral-grayish-blue);
+}
+
+body {
+  background: var(--neutral-very-light-grey);
+}
+
+.container {
+  min-width: 375px;
+  padding: 0 2em;
+  margin-top: 5em;
+}
+
+header,
+main {
+  margin-bottom: 6em;
+}
+
+
+
+/* ===== 
+Typography 
+===== */
+
+h2 {
+  font-weight: 200;
+  font-size: 1.8rem;
+}
+
+header h2:nth-child(2) {
+  margin-bottom: 1em;
+}
+
+header h2:nth-child(2),
+h5 {
+  font-weight: 600;
+  color: var(--neutral-very-dark-blue);
+}
+
+header p {
+  width: 80%;
+  margin:0 auto;
+}
+
+
+h5 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.card p {
+  font-size: .9rem;
+}
+
+/* ====
+cards 
+==== */
+
+.card {
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  height: 12rem;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 3%;
+}
+
+.card-text h5,
+.card-text p {
+  align-self: flex-start;
+  text-align: left;
+}
+.card-text h5 {
+  margin-bottom: .5em;
+}
+
+img {
+  width: 60px;
+  align-self: flex-end;
+}
+
+.card-supervisor {
+  border-top: 3px solid var(--primary-cyan-color);
+}
+.card-team-builder {
+  border-top: 3px solid var(--primary-red-color);
+
+}
+.card-karma {
+  border-top: 3px solid var(--primary-orange-color);
+
+}
+.card-calculator {
+  border-top: 3px solid var(--primary-blue-color);
+
+}
+
