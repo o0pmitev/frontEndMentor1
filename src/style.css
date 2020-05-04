@@ -136,12 +136,12 @@ MEDIA QUERY's
 main {
   display: flex;
   align-items: space-between;
+  min-width: 600px;
 }
 
 .card {
   min-width: 150px;
-  width: 70%;
-  background-color: red; // to remove
+  max-width: 300px;
 }
 .card-supervisor,
 .card-calculator {
