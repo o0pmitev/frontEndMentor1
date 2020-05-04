@@ -1,5 +1,5 @@
 # Plamen Mitev Solution:
-https://o0pmitev.github.io/frontEndMentor1/
+https://hungry-poincare-b63abf.netlify.app/
 
 # Frontend Mentor - Four card feature section
 
