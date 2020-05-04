@@ -31,6 +31,13 @@ body {
   min-width: 300px;
   padding: 0 2em;
   margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  max-width: 1206px;
 }
 
 header,
@@ -135,7 +142,6 @@ MEDIA QUERY's
 
 main {
   display: flex;
-  align-items: space-between;
   min-width: 600px;
 }
 
@@ -143,6 +149,7 @@ main {
   min-width: 150px;
   max-width: 300px;
 }
+
 .card-supervisor,
 .card-calculator {
   margin-top: 7em;
